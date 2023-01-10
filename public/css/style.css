@@ -1,7 +1,86 @@
 body{
-    background-color: black;
+    background-image: linear-gradient(black, rgba(17, 17, 78));
+    background-repeat: no-repeat;
+    background-size: 1500px auto;
+}
+
+.principal{
+    height: 1200px;
+}
+.logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.tipo{
+    color: white;
+}
+
+.cor1{
+    background-color: #15398D;
 }
 
 h1{
     color: white;
+}
+
+.form{
+    width: 100%;
+  
+}
+
+.form-config{
+    width: 50%;
+    height: auto;
+    background-color: rgba(0, 198, 248, 0.13);
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid rgba(0, 198, 248, 0.13);
+    border-radius: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-config a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+.form-config form input[type="email"], [type="password"]{
+    width: 80%;
+    height: 55px;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.897);
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+}
+
+.form-config form input[type="submit"]{
+    width: 40%;
+    height: 45px;
+    
+}
+
+.form-config label{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-config {
+    width: 97%;
+      
+    }
+}
+
+.tipo a{
+    text-decoration: none;
 }
